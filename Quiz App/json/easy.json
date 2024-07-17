@@ -1,0 +1,38 @@
+[
+    {
+        "question": "Which of the following is a valid way to comment out multiple lines in Python?",
+        "options": ["// This is a comment", "# This is a comment", "/* This is a comment */"," ‘’’ This is a comment ‘’’"],
+        "answer": "‘’’ This is a comment ‘’’",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which of the following is the correct way to create a variable in Python?",
+        "options": ["variable x = 5","x = 5", "int x = 5", "create x and assign 5 to it"],
+        "answer": "x = 5",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the correct way to define a function in Python?",
+        "options": ["function add(a, b):","def add(a, b):","define add(a, b):", "define_function add(a, b):"],
+        "answer": "def add(a, b):",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the correct way to check if a key exists in a dictionary",
+        "options": ["key in dictionary","dictionary.exists(key)", "dictionary.has_key(key)", "key.exists(dictionary)"],
+        "answer": "key in dictionary",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What does the `isdigit()` method do in Python strings?",
+        "options": ["Checks if all characters in the string are digits", "Checks if all characters in the string are alphabetic", " Checks if the string is empty" ,"Converts the string to lowercase"],
+        "answer": "Checks if all characters in the string are digits",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the correct way to create a tuple in Python?",
+        "options": ["(1, 2, 3)","{1, 2, 3}", "[1, 2, 3]", "tuple(1, 2, 3)" ],
+        "answer": "(1, 2, 3)",
+        "difficulty": "easy"
+    }
+]

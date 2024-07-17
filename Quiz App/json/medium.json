@@ -1,0 +1,38 @@
+[
+    {
+        "question": "What is pseudo-code used for in programming??",
+        "options": [" Executing code", "Designing algorithms", "Debugging errors","Compiling programs"],
+        "answer": "Designing algorithms",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Is pseudo-code written in a specific programming language",
+        "options": ["Yes, always", " No, never", "Yes, but only in Python","No, it’s language-neutral"],
+        "answer": " No, it’s language-neutral",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the primary purpose of using control structures in pseudo-code?",
+        "options": ["Adding complexity", "Enhancing readability", "Creating graphics","Formatting output"],
+        "answer": "Enhancing readability",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How does pseudo-code contribute to the debugging process?",
+        "options": ["It automatically fixes errors", "It identifies errors early in development", "It generates error reports","It compiles the code"],
+        "answer": " It identifies errors early in development",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Can pseudo-code be used as documentation for a program?",
+        "options": ["No, it’s not detailed enough", "Yes, it provides a high-level overview", "Only for certain programming languages","It depends on the compiler"],
+        "answer": "Yes, it provides a high-level overview",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which of the following best describes pseudo-code?",
+        "options": ["Low-level programming language", "Actual executable code", "Human-readable algorithm representation","Machine code"],
+        "answer": "Human-readable algorithm representation",
+        "difficulty": "medium"
+    }
+]

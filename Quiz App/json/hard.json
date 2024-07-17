@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Which of the following data types is mutable in Python",
+        "options": ["int", "float", "tuple","list"],
+        "answer": "list",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What does the `len()` function do in Python?",
+        "options": ["Returns the largest element in a list", "Returns the length of a string", "Returns the square root of a number","Returns the sum of elements in a list"],
+        "answer": "Returns the length of a string",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which of the following is the correct syntax to open a file named “example.txt” in Python?",
+        "options": ["open(“example.txt”, “r”)", "open(“example.txt”)", "read(“example.txt”)","file.open(“example.txt”, “read”)"],
+        "answer": "open(“example.txt”, “r”)",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What does the `append()` method do in Python lists?",
+        "options": ["Removes the last element from the list", "Adds an element to the beginning of the list", "Adds an element to the end of the list","Reverses the order of elements in the list"],
+        "answer": "Adds an element to the end of the list",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What does the `strip()` method do in Python strings?",
+        "options": ["Removes all occurrences of a character from the string", "Removes leading and trailing whitespaces from the string", "Splits the string into a list of substrings","Converts the string to uppercase"],
+        "answer": "Removes leading and trailing whitespaces from the string",
+        "difficulty": "hard"
+    }
+]

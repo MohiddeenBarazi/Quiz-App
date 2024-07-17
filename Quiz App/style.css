@@ -1,0 +1,115 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container{
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #ADD8E6;
+}
+h1{
+    font-size: 2.7rem;
+    margin-bottom: 15px;
+}
+#difficulty-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+#difficulty-container button{
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    font-size: 1.3rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+#difficulty-container button:hover{
+    background-color: #0056b3;
+}
+#questions-container{
+    display: none;
+}
+#question{
+    font-size: 1.3rem;
+    color: #444;
+    margin-bottom: 15px;
+}
+#options{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.option-button{
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.option-button:hover{
+    background-color: #0056b3;
+}
+.option-button.correct{
+    background-color: #28a745;
+    color: #fff;
+}
+.option-button.wrong{
+    background-color: #dc3545;
+    color: #fff;
+}
+#next{
+    padding: 10px;
+    background-color: #007bff;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#next:hover{
+    background-color: #0056b3;
+}
+#timer{
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: #444;
+    font-weight: bold;
+}
+#count{
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: #444;
+    font-weight: bold;
+}
+#leaderboard{
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: #444;
+    font-weight: bold;
+}
+#count{
+    margin-bottom: 20px;
+}
+#scores{
+    margin-top: 20px;
+    font-weight: bold;
+}
